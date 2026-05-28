@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora Sergio de la Cerda</title>
+
+    <style> 
+        html, body{
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            
+            
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        header{
+            padding: 20px;
+            background-color: rgb(0, 0, 0);
+
+        }
+            h1 {color: rgb(255, 255, 255);
+                text-shadow: 
+                    0 0 7px #fff,
+                    0 0 10px #bc13fe, /* Morado neón */
+                    0 0 21px #bc13fe,
+                    0 0 42px #0ff;}
+            
+         
+        
+        main{
+            flex: 1;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .semana {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    transition: border-color 0.3s ease;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+        }
+       
+.semana:hover {
+    transform: scale(1.1);
+    border-color: #bc13fe; 
+}
+
+.semana h3 {
+    color: #bc13fe;
+    margin-top: 0;
+}
+
+.semana p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+ .video-programacion {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    margin: 15px 0;
+}
+
+
+        footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            border-top: 1px solid black;
+            background-color: blue;
+        }
+        span {color: white;}
+ 
+        footer img {
+            transition: transform 0.3s ease;
+            cursor: pointer; 
+        }
+        footer img:hover {
+            transform: scale(1.1); 
+        }
+
+    </style>
+
+    <link rel="icon" type="image/png" href="c:\Users\Alumno Capouilliez\Documents\delaCerda11A\Recursos\img\LCCapuA.png">
+</head>
+
+<body>
+    <header>
+        <h1>Bitácora Segunda y Tercera unidad</h1>
+    </header>
+
+    <main>
+        <h4>Contenido de la página WEB</h4> 
+        <img>
+    <div class="semana">
+        <h3>Semana 1: Inicio de página web</h3>
+        <p>En esta semana empezamos a programar nuestra página web.</p>
+        <iframe src="c:\Users\Alumno Capouilliez\Documents\delaCerda11A\Recursos\Introducción Arduino de la Cerda 1.pdf" class="pdf-view"></iframe>
+    </div>
+    
+    <div class="semana">
+        <h3>Semana 2: Inicio del desarrollo de la página web</h3>
+        <p>Se separo el header, el main y el footer, agregamos información en estos 3 apartados y también agregamos el icono.</p>
+        <img src="c:\Users\Alumno Capouilliez\Documents\delaCerda11A\Recursos\img\TiposDeArduino.png">
+    </div>
+
+    <div class="semana">
+        <h3>Semana 3: Introducción a Arduino</h3>
+        <p>Empezamos a manipular el Arduino y vimos sus partes, y el como sirven.</p>
+    </div>
+
+    <div class="semana">
+        <h3>Semana 4: Programación en Arduino</h3>
+        <p>Programamos un Led RGB para que se encendiera en sus diferentes colores.</p>
+        <video controls class="video-programacion">
+        <source src="c:\Users\Alumno Capouilliez\Documents\delaCerda11A\RGBLED_Todas_se_Encienden_Tinkercad_SergiodelaCerda.mp4"></video>
+    </div>
+
+</main>
+    </main>
+
+    <footer>
+        <span>@Sonic_Pro_LOL08</span>
+        <img src="https://www.capouilliez.edu.gt/assets/img/logo.png" height="75" width="300">
+    </footer>
+    
+</body>
+</html>
